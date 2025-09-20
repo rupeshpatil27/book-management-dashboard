@@ -1,0 +1,276 @@
+{
+  "books": [
+    {
+      "Title": "Brave New World",
+      "Author": "Aldous Huxley",
+      "Genre": "Dystopian",
+      "PublishedYear": 1932,
+      "Status": "Issued",
+      "id": "11"
+    },
+    {
+      "id": "12",
+      "Title": "The Lord of the Rings",
+      "Author": "J.R.R. Tolkien",
+      "Genre": "Fantasy",
+      "PublishedYear": 1954,
+      "Status": "Available"
+    },
+    {
+      "id": "13",
+      "Title": "Animal Farm",
+      "Author": "George Orwell",
+      "Genre": "Political Satire",
+      "PublishedYear": 1945,
+      "Status": "Available"
+    },
+    {
+      "id": "14",
+      "Title": "Wuthering Heights",
+      "Author": "Emily Brontë",
+      "Genre": "Tragedy",
+      "PublishedYear": 1847,
+      "Status": "Issued"
+    },
+    {
+      "id": "15",
+      "Title": "Crime and Punishment",
+      "Author": "Fyodor Dostoevsky",
+      "Genre": "Philosophical Fiction",
+      "PublishedYear": 1866,
+      "Status": "Available"
+    },
+    {
+      "id": "16",
+      "Title": "The Odyssey",
+      "Author": "Homer",
+      "Genre": "Epic Poetry",
+      "PublishedYear": -800,
+      "Status": "Available"
+    },
+    {
+      "id": "17",
+      "Title": "The Iliad",
+      "Author": "Homer",
+      "Genre": "Epic Poetry",
+      "PublishedYear": -750,
+      "Status": "Issued"
+    },
+    {
+      "id": "18",
+      "Title": "The Divine Comedy",
+      "Author": "Dante Alighieri",
+      "Genre": "Epic Poetry",
+      "PublishedYear": 1320,
+      "Status": "Available"
+    },
+    {
+      "id": "19",
+      "Title": "Frankenstein",
+      "Author": "Mary Shelley",
+      "Genre": "Horror",
+      "PublishedYear": 1818,
+      "Status": "Available"
+    },
+    {
+      "id": "20",
+      "Title": "Dracula",
+      "Author": "Bram Stoker",
+      "Genre": "Horror",
+      "PublishedYear": 1897,
+      "Status": "Issued"
+    },
+    {
+      "id": "21",
+      "Title": "The Brothers Karamazov",
+      "Author": "Fyodor Dostoevsky",
+      "Genre": "Philosophical Fiction",
+      "PublishedYear": 1880,
+      "Status": "Available"
+    },
+    {
+      "id": "22",
+      "Title": "A Tale of Two Cities",
+      "Author": "Charles Dickens",
+      "Genre": "Historical Fiction",
+      "PublishedYear": 1859,
+      "Status": "Issued"
+    },
+    {
+      "id": "23",
+      "Title": "The Alchemist",
+      "Author": "Paulo Coelho",
+      "Genre": "Adventure",
+      "PublishedYear": 1988,
+      "Status": "Available"
+    },
+    {
+      "id": "24",
+      "Title": "The Picture of Dorian Gray",
+      "Author": "Oscar Wilde",
+      "Genre": "Philosophical Fiction",
+      "PublishedYear": 1890,
+      "Status": "Issued"
+    },
+    {
+      "id": "25",
+      "Title": "Don Quixote",
+      "Author": "Miguel de Cervantes",
+      "Genre": "Satire",
+      "PublishedYear": 1605,
+      "Status": "Available"
+    },
+    {
+      "id": "26",
+      "Title": "Les Misérables",
+      "Author": "Victor Hugo",
+      "Genre": "Historical Fiction",
+      "PublishedYear": 1862,
+      "Status": "Available"
+    },
+    {
+      "id": "27",
+      "Title": "The Count of Monte Cristo",
+      "Author": "Alexandre Dumas",
+      "Genre": "Adventure",
+      "PublishedYear": 1844,
+      "Status": "Issued"
+    },
+    {
+      "id": "28",
+      "Title": "Little Women",
+      "Author": "Louisa May Alcott",
+      "Genre": "Coming-of-Age",
+      "PublishedYear": 1868,
+      "Status": "Available"
+    },
+    {
+      "id": "29",
+      "Title": "Sense and Sensibility",
+      "Author": "Jane Austen",
+      "Genre": "Romance",
+      "PublishedYear": 1811,
+      "Status": "Issued"
+    },
+    {
+      "id": "30",
+      "Title": "A Christmas Carol",
+      "Author": "Charles Dickens",
+      "Genre": "Fiction",
+      "PublishedYear": 1843,
+      "Status": "Available"
+    },
+    {
+      "id": "31",
+      "Title": "Great Expectations",
+      "Author": "Charles Dickens",
+      "Genre": "Bildungsroman",
+      "PublishedYear": 1861,
+      "Status": "Available"
+    },
+    {
+      "id": "32",
+      "Title": "The Metamorphosis",
+      "Author": "Franz Kafka",
+      "Genre": "Absurdist Fiction",
+      "PublishedYear": 1915,
+      "Status": "Issued"
+    },
+    {
+      "id": "33",
+      "Title": "The Stranger",
+      "Author": "Albert Camus",
+      "Genre": "Philosophical Fiction",
+      "PublishedYear": 1942,
+      "Status": "Available"
+    },
+    {
+      "id": "34",
+      "Title": "The Old Man and the Sea",
+      "Author": "Ernest Hemingway",
+      "Genre": "Literary Fiction",
+      "PublishedYear": 1952,
+      "Status": "Issued"
+    },
+    {
+      "id": "35",
+      "Title": "Lolita",
+      "Author": "Vladimir Nabokov",
+      "Genre": "Literary Fiction",
+      "PublishedYear": 1955,
+      "Status": "Available"
+    },
+    {
+      "id": "36",
+      "Title": "Rebecca",
+      "Author": "Daphne du Maurier",
+      "Genre": "Gothic Fiction",
+      "PublishedYear": 1938,
+      "Status": "Available"
+    },
+    {
+      "id": "37",
+      "Title": "The Bell Jar",
+      "Author": "Sylvia Plath",
+      "Genre": "Fiction",
+      "PublishedYear": 1963,
+      "Status": "Issued"
+    },
+    {
+      "id": "38",
+      "Title": "Catch-22",
+      "Author": "Joseph Heller",
+      "Genre": "Satire",
+      "PublishedYear": 1961,
+      "Status": "Available"
+    },
+    {
+      "id": "39",
+      "Title": "Slaughterhouse-Five",
+      "Author": "Kurt Vonnegut",
+      "Genre": "Science Fiction",
+      "PublishedYear": 1969,
+      "Status": "Issued"
+    },
+    {
+      "id": "40",
+      "Title": "On the Road",
+      "Author": "Jack Kerouac",
+      "Genre": "Beat",
+      "PublishedYear": 1957,
+      "Status": "Available"
+    },
+    {
+      "id": "41",
+      "Title": "Beloved",
+      "Author": "Toni Morrison",
+      "Genre": "Historical Fiction",
+      "PublishedYear": 1987,
+      "Status": "Issued"
+    },
+    {
+      "id": "42",
+      "Title": "The Handmaid's Tale",
+      "Author": "Margaret Atwood",
+      "Genre": "Dystopian",
+      "PublishedYear": 1985,
+      "Status": "Available"
+    },
+    {
+      "id": "181a",
+      "Title": "test1",
+      "Author": "test1",
+      "Genre": "new",
+      "PublishedYear": 2028,
+      "Status": "Issued"
+    },
+    {
+      "id": "4767",
+      "Title": "test2",
+      "Author": "test",
+      "Genre": "trt",
+      "PublishedYear": 2026,
+      "Status": "trtr"
+    }
+  ]
+}

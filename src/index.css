@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-blue: #0a66c2;
+  --color-dark-blue: #004182;
+
+  --color-red: #e32227;
+  --color-green: #00a300;
+
+  --color-yellow: #f5f838;
+
+    --border: #e5e5e5;
+  --color-background: #fff;
+
+  --color-gray-1: #757575;
+  --color-gray-2: #878787;
+  --color-light-1: rgb(238, 241, 245);
+  --color-light-2: rgba(132, 139, 200, 0.18);
+}
+
+body {
+  background-color: #f6f6f6;
+  color: #000;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+}
+
+@layer utilities {
+
+  .container-shadow {
+    @apply [box-shadow:0_1px_1px_0_rgba(0,0,0,0.16)] hover:shadow-none;
+  }
+
+  .hover-animation {
+    @apply hover:-translate-y-1 duration-200;
+  }
+}
+
+.input-box {
+  width: 100%;
+  font-size: 14px;
+  height: 40px; 
+  line-height: 40px;
+  color: #000;
+  padding: 10px 10px 10px 15px;
+  border: 1px solid rgba(132, 139, 200, 0.18);
+  border-radius: 8px;
+  background-color: #fff;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.input-box:focus,
+.input-box:valid,
+.input-box.has-value {
+  border: 1px solid var(--color-blue);
+}
+
+.input-box.error {
+  border-color: var(--color-red);
+}
+
+.label-txt {
+  color: var(--color-gray-2);
+  font-size: 14px;
+  position: absolute;
+  pointer-events: none;
+  left: 25px;
+  top: 0;
+  transform: translateY(50%);
+  transition: all 0.2s ease;
+  padding: 0 8px;
+  background-color: #fff;
+  transform-origin: left center;
+}
+
+.label-txt.float {
+  top: 0;
+  transform: translate(-5px, -50%) scale(0.77);
+  color: var(--color-blue);
+  z-index: 1;
+}
+
+.input-box:focus + .label-txt,
+.input-box:valid + .label-txt,
+.input-box.has-value + .label-txt {
+  top: 0;
+  transform: translate(-5px, -50%) scale(0.77);
+  color: var(--color-blue);
+  z-index: 1;
+}
+
+.input-box.error + .label-txt {
+  color: var(--color-red);
+}
+
+.error-msg {
+  width: 100%;
+  display: block;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: var(--color-red);
+  text-align: left;
+  visibility: hidden;
+}
+
+.input-box.error + .error-msg {
+  visibility: visible;
+}
+
+.input-box.ant-picker:not(.has-value):hover {
+  border-color: rgba(132, 139, 200, 0.18) !important;
+  box-shadow: none !important;
+}
+
+.input-box.select-picker:not(.has-value):hover {
+  border-color: rgba(132, 139, 200, 0.18) !important;
+  box-shadow: none !important;
+}
+
