@@ -1,12 +1,36 @@
-# React + Vite
+# Book Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React.js dashboard application for managing books. This app allows users to perform CRUD operations on a list of books with a mock API. The app integrates features like pagination, search, filters, and more, making it a useful tool for managing a collection of books.
 
-Currently, two official plugins are available:
+### Technologies Used:
+- **React.js** for building the frontend
+- **Ant Design** and **Tailwind CSS** for UI components and styling
+- **React Query** for API calls
+- **json-server** to mock the API
+- **React Hook Form** for form validation
+- **Spinners** to indicate loading during data fetching
+- **React Router** for navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Setup Instructions:
 
-## Expanding the ESLint configuration
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/rupeshpatil27/book-management-dashboard.git
+   cd book-management-dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. **Install Dependencies**
+   ```bash
+   npm install
+
+3. **Run the Mock API**
+   To start the mock API using json-server, run the following
+   ```bash
+   npx json-server src\api\data.json
+
+3. **Run the App**
+   In the root directory of the project, run App
+
+## Screenshot 📸
+
+  <img src="./public/preview.png" />
+
